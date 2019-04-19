@@ -1,0 +1,22 @@
+.content_wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video {
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.more-content > h1 {
+    text-align: center;
+    font-size: 10rem;
+    transition: 0.5s;
+}
+
+.more-content > h1:hover {
+    color: rgb(251, 255, 0);  
+}

@@ -1,0 +1,101 @@
+.navigation-wrapper {
+    height: 25px;
+    background-color: rgb(61, 116, 111);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 20px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .left-column > .another-dimension-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    text-decoration: none;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columms: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column >.logo-display {
+display: flex;
+justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .logo-display img {    
+    width: 100px;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.navigation-wrapper > .center-column > .logo-display img:hover {  
+    background: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px
+}
+
+.links-wrapper .nav-link a {
+    transition: 0.5s;
+    font-size: 1.5em;
+    color: cyan;
+}
+
+.links-wrapper .nav-link a:hover {
+    transition: 0.5s;
+    font-size: 1.5em;
+    color: rgb(251, 255, 0);
+}
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-columm > .dimension-wrapper i {
+    font-size: 2em;
+    margin-top: 15px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-columm > .dimension-wrapper i:hover {
+    color: rgb(251, 255, 0);
+}
+
+.navigation-wrapper > .left-column > .icon i:hover {
+    color: rgb(251, 255, 0);
+}
